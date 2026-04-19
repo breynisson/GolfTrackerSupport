@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GolfTracker Support</title>
+  <meta name="description" content="Support and privacy information for GolfTracker, an on-course golf shot tracking app for iPhone.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8f4;
+      --ink: #182018;
+      --muted: #5f695f;
+      --panel: #ffffff;
+      --line: #d9dfd5;
+      --accent: #1f7a4d;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    header {
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav,
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 64px;
+    }
+
+    .brand {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .hero {
+      padding: 56px 0 32px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 8vw, 56px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 26px;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .lead {
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 19px;
+    }
+
+    section {
+      margin: 0 0 24px;
+      padding: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    ul {
+      margin: 0 0 14px;
+      padding-left: 20px;
+    }
+
+    footer {
+      width: min(880px, calc(100% - 32px));
+      margin: 32px auto;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 560px) {
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        padding: 14px 0;
+      }
+
+      .hero {
+        padding-top: 40px;
+      }
+
+      section {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Primary">
+      <div class="brand">GolfTracker</div>
+      <div class="links">
+        <a href="#support">Support</a>
+        <a href="#privacy">Privacy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>GolfTracker Support</h1>
+      <p class="lead">GolfTracker is an iPhone app for quick on-course shot logging, miss tracking, and post-round review.</p>
+    </div>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p>For support, questions, bug reports, or feedback, contact the developer:</p>
+      <p><a href="mailto:bjorgvin.reynisson@gmail.com">bjorgvin.reynisson@gmail.com</a></p>
+
+      <h3>Common Help</h3>
+      <ul>
+        <li>Tap a shot type to start logging a shot.</li>
+        <li>Select the fault that best describes the miss.</li>
+        <li>Use the summary and chart views after a round to review patterns.</li>
+        <li>Use Clear All Data in the summary view to remove stored shot logs from the device.</li>
+      </ul>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>GolfTracker stores shot logs locally on your device. The app does not require an account and does not transmit shot data to a server.</p>
+
+      <h3>Data Collection</h3>
+      <p>GolfTracker does not collect personal data, does not use third-party analytics, and does not track users across apps or websites.</p>
+
+      <h3>Local Storage</h3>
+      <p>Shot entries are stored on the device so the app can show summaries and charts. You can delete stored entries from within the app.</p>
+
+      <h3>Contact</h3>
+      <p>Questions about this privacy policy can be sent to <a href="mailto:bjorgvin.reynisson@gmail.com">bjorgvin.reynisson@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2026 Bjorgvin Reynisson. Last updated April 19, 2026.</p>
+  </footer>
+</body>
+</html>
